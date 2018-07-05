@@ -1,6 +1,6 @@
 ---
 - hosts: webservers
-  sudo: yes
+  remote_user: root
   vars:
     http_port: 80
     doc_dir: /ansible/
