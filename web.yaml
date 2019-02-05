@@ -6,7 +6,7 @@
 
   tasks:
   - name: Print debug message
-    command: sudo apt install git
+    command: sudo apt install git -y 
 
 
   
